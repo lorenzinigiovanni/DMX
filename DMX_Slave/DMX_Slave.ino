@@ -1,8 +1,6 @@
 #include <Conceptinetics.h>
 
-#define DMX_SLAVE_CHANNELS   1
-
-DMX_Slave dmx_slave(DMX_SLAVE_CHANNELS);
+DMX_Slave dmx_slave(9, 2);
 
 const int ledPin = 13;
 
